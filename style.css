@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #a3826a;
+}
+
+.fas{
+    color: yellow;
+}
+
+
+.nav-item > a{
+    color: white;
+    font-weight: bold;
+}
