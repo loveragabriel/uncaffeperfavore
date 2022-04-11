@@ -1,104 +1,110 @@
-
-
-.navbar{
+.navbar {
     background-color: #a3826a;
 }
 
-.fas{
-    color: yellow;
+.fas {
+    color: rgb(220, 220, 19);
+    font-size: 2em;
 }
 
-
-.nav-item > a{
+.nav-item>a {
     color: white;
     font-weight: bold;
 }
 
-main .carousel-inner img{
+main .carousel-inner img {
     max-height: 70vh;
     object-fit: cover;
     opacity: 0.7;
 }
 
-.btn.customized{
+.btn.customized {
     background-color: #5b493c;
 }
-.sectionOne{
+
+.sectionOne {
     background-color: #ded5ce;
     opacity: 0.9;
 }
 
-
-.cardContainer{
+.cardContainer {
     align-items: center;
     margin: auto;
 }
 
-.card-img-top{
+.card-img-top {
     max-height: 30vh;
     object-fit: cover;
 }
 
-
-
-
-
-.sectionOne > h2{
+.sectionOne>h2 {
     text-align: center;
     padding: 2em;
 }
-#aboutUs{
-       color: bisque;
-       text-align: center;
-       padding-bottom: 2em;
+
+.formSection {
+    padding: 2em;
 }
-.sectionAbout{
-    padding:5em;
+
+h3 {
+    text-align: center;
+    padding: 2em;
+}
+
+#aboutUs {
+    color: bisque;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.sectionAbout {
+    padding: 5em;
     background-color: rgb(86, 127, 164);
 }
 
-.sectionAbout >p{
+.sectionAbout>p {
     font-size: 3vh;
 }
 
-
-footer{
+footer {
     background-color: #5b493c;
     width: 100vw;
     padding: 7vh;
     position: relative;
-    bottom:0;
+    bottom: 0;
 }
-.col-6{
+
+.col-6 {
     text-align: end;
 }
 
-.row{
+.row {
     align-items: center;
 }
 
-.container-fluid .row .col-6, .col i{
+.container-fluid .row .col-6,
+.col i {
     font-size: 20px;
 }
 
-.buttonCustomized{
+.buttonCustomized {
     background-color: #c16828;
     border-radius: 3px;
     border: none;
     box-shadow: 2px 2px 2px rgb(61, 60, 60);
 }
 
-.buttonCustomized:hover{
+.buttonCustomized:hover {
     background-color: #728742;
 }
 
-.buttonCustomized:active{
+.buttonCustomized:active {
     background-color: #ee4c07;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
 
-    .sectionAbout >p{
+    .sectionAbout>p {
         font-size: 2vh;
     }
-    }
+}
