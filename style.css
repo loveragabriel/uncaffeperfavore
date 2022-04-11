@@ -19,3 +19,86 @@ main .carousel-inner img{
     object-fit: cover;
     opacity: 0.7;
 }
+
+.btn.customized{
+    background-color: #5b493c;
+}
+.sectionOne{
+    background-color: #ded5ce;
+    opacity: 0.9;
+}
+
+
+.cardContainer{
+    align-items: center;
+    margin: auto;
+}
+
+.card-img-top{
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+
+
+
+
+.sectionOne > h2{
+    text-align: center;
+    padding: 2em;
+}
+#aboutUs{
+       color: bisque;
+       text-align: center;
+       padding-bottom: 2em;
+}
+.sectionAbout{
+    padding:5em;
+    background-color: rgb(86, 127, 164);
+}
+
+.sectionAbout >p{
+    font-size: 3vh;
+}
+
+
+footer{
+    background-color: #5b493c;
+    width: 100vw;
+    padding: 7vh;
+    position: relative;
+    bottom:0;
+}
+.col-6{
+    text-align: end;
+}
+
+.row{
+    align-items: center;
+}
+
+.container-fluid .row .col-6, .col i{
+    font-size: 20px;
+}
+
+.buttonCustomized{
+    background-color: #c16828;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(61, 60, 60);
+}
+
+.buttonCustomized:hover{
+    background-color: #728742;
+}
+
+.buttonCustomized:active{
+    background-color: #ee4c07;
+}
+
+@media (max-width: 500px){
+
+    .sectionAbout >p{
+        font-size: 2vh;
+    }
+    }
